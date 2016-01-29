@@ -6,6 +6,7 @@ import com.webfrequency.geekcommerce.domain.Product;
 public interface ProductRepository {
 
 	List <Product> getAllProducts();
+	List<Product> getProductsByCategory(String category);
 	
 	Product getProductById(String productId);
 }
