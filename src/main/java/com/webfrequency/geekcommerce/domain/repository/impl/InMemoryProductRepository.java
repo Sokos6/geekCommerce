@@ -1,20 +1,19 @@
-package impl;
+package com.webfrequency.geekcommerce.domain.repository.impl;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.springframework.stereotype.Repository;
+import com.webfrequency.geekcommerce.domain.Product;
+import com.webfrequency.geekcommerce.domain.repository.ProductRepository;
 
-import domain.Product;
-import repository.ProductRepository;
 
 @Repository
 public class InMemoryProductRepository implements ProductRepository {
 	private List<Product> listOfProducts = new ArrayList<Product>();
 	
 	public InMemoryProductRepository() {
-		Product iphone = new Product("P1234","iphone 5s", new BigDecimal(500));
+		Product iphone = new Product("P1234","iPhone 5s", new BigDecimal(500));
 		iphone.setDescription("Apple iPhone 5s smartphone with 4.00-inch 640x1136 display and 8-megapixel rear camera");
 		iphone.setCategory("Smart Phone");
 		iphone.setManufacturer("Apple");

@@ -1,4 +1,4 @@
-package domain;
+package com.webfrequency.geekcommerce.domain;
 
 import java.math.BigDecimal;
 
