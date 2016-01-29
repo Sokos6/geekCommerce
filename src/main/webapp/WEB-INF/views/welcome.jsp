@@ -76,14 +76,14 @@ img {max-width: 100%;}
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/geekcommerce">Brand</a>
+      <a class="navbar-brand" href="/geekcommerce/">Brand</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="geekcommerce/products">Products <span class="sr-only">(current)</span></a></li>
-        <li><a href="geekcommerce/customers">Customers</a></li>
+        <li class="active"><a href="products">Products <span class="sr-only">(current)</span></a></li>
+        <li><a href="customers">Customers</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -125,9 +125,9 @@ img {max-width: 100%;}
 	<span class="cycle-prev">&#9001;</span>
   <span class="cycle-next">&#9002;</span>
   <span class="cycle-pager"></span>
-  <img src="src/main/resources/images/5473689341.jpg">
-  <img src="resources/817971-geek-wallpaper-hd.jpg">
-  <img src="resources/HM-shop-online-2.png">
+  <img src="images/5473689341.jpg">
+  <img src="images/817971-geek-wallpaper-hd.jpg">
+  <img src="images/HM-shop-online-2.png">
 </div>
 
 <!-- End Responsive Image Slider -->
