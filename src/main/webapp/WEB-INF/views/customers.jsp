@@ -11,7 +11,7 @@
     <section>
       <div class="jumbotron">
         <div class="container">
-          <h1>Customers | geekCommerce</h1>
+          <h1>Customers</h1>
           <p>All of Our Awesome Customers</p>
         </div>
       </div>
