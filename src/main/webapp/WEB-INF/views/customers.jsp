@@ -2,6 +2,7 @@
 
 <html>
   <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Customers | geekCommerce</title>
     <jsp:include page="_head.jsp"></jsp:include>
   </head>
@@ -10,7 +11,7 @@
     <section>
       <div class="jumbotron">
         <div class="container">
-          <h1>Customers</h1>
+          <h1>Customers | geekCommerce</h1>
           <p>All of Our Awesome Customers</p>
         </div>
       </div>

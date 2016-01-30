@@ -1,4 +1,4 @@
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -11,8 +11,6 @@
 <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-
-<title>Welcome</title>
 <script type="text/javascript" src="/geekcommerce/js/jquery-2.1.3.min.js"></script>
 <script type="text/javascript" src="/geekcommerce/js/jquery.cycle2.min.js"></script>
 <style type="text/css">
