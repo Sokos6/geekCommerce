@@ -16,7 +16,7 @@
 		<div class="jumbotron">
 			<div class="container">
 				<h1>Products</h1>
-				<p>Add products</p>
+				<p>Add products - Test Purposes Username: Admin Password: Admin123</p>
 			</div>
 		</div>
 	</section>
@@ -55,4 +55,5 @@
 			</div>
 		</div>
 	</div>
+	<jsp:include page="_footer.jsp"></jsp:include>
 </body>

@@ -17,15 +17,15 @@
         <li class="active"><a href="products">Products <span class="sr-only">(current)</span></a></li>
         <li><a href="customers">Customers</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Product Options <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="products.jsp">Action</a></li>
-            <li><a href="http://www.comicbooked.com">Another action</a></li>
-            <li><a href="http://www.comicbooked.com">Something else here</a></li>
+            <li><a href="products/add">Add Product</a></li>
+            <li><a href="products/all">All Products</a></li>
+            <li><a href="products/product?id=P1234">Single Product</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="http://www.comicbooked.com">Separated link</a></li>
+            <li><a href="cart">Cart</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="http://www.comicbooked.com">One more separated link</a></li>
+            <li><a href="products/product?id=P1236">Nexus 7</a></li>
           </ul>
         </li>
       </ul>
@@ -36,17 +36,7 @@
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
+        <li><a href="login">Login</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

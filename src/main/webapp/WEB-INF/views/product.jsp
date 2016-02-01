@@ -8,8 +8,10 @@
 	<script	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script>
 	<script src="/geekcommerce/resource/js/controllers.js"></script>
 <title>Products | geekCommerce</title>
+<jsp:include page="_head.jsp"></jsp:include>
 </head>
 <body>
+<jsp:include page="_nav.jsp"></jsp:include>
 	<section>
 		<div class="jumbotron">
 			<div class="container">
@@ -58,5 +60,6 @@
 			</div>
 		</div>
 	</section>
+	<jsp:include page="_footer.jsp"></jsp:include>
 </body>
 </html>
