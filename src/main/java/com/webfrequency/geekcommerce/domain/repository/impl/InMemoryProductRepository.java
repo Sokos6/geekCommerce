@@ -11,6 +11,7 @@ import org.springframework.stereotype.Repository;
 
 import com.webfrequency.geekcommerce.domain.Product;
 import com.webfrequency.geekcommerce.domain.repository.ProductRepository;
+import com.webfrequency.geekcommerce.exception.ProductNotFoundException;
 
 @Repository
 public class InMemoryProductRepository implements ProductRepository {
@@ -56,7 +57,7 @@ public class InMemoryProductRepository implements ProductRepository {
 		}
 
 		if (productById == null) {
-			throw new IllegalArgumentException("No products found with the product id: " + productId);
+			throw new ProductNotFoundException("No products found with the product id: " + productId);
 		}
 		return productById;
 	}
